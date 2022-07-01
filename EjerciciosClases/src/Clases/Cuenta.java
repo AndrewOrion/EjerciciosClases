@@ -7,7 +7,12 @@ public class Cuenta {
 
 
 	public Cuenta() {
-	
+		titular= new Persona();
+	}
+	public Cuenta(Persona titular, double saldo) {
+		super();
+		this.titular=titular;
+		this.cantidad=cantidad;
 	}
 
 	public void mostrar() {

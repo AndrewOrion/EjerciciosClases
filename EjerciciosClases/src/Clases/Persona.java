@@ -8,7 +8,9 @@ public class Persona {
 	
 	
 	public Persona() {
-		
+		this.nombre="";
+		this.edad=0;
+		this.dni="";
 	}
 	
 	public Persona(String nombre, int edad, String dni) {

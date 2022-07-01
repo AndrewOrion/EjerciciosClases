@@ -94,7 +94,7 @@ public class Pelicula {
 			return "Buena";
 		else if (this.calificacion>8 && this.calificacion<=10)
 			return "Excelente";
-		else return "Error";		
+		else return "[Error (de 0 a 10)]";		
 	}
 	
 	public boolean esSimilar(Pelicula p) {

@@ -14,7 +14,7 @@ public class PeliculaPrincipal {
 				3.30,1995,9.0);
 		
 		peli2= new Pelicula("Aliens","James Cameron","Suspense",
-				2.30,1986,9.5);
+				2.30,1986,12);
 		
 		peli1.imprimir();
 		System.out.println("_______________________");
